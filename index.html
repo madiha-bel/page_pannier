@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet panier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo1.png" alt="">
+
+        <div class="panier">🛒</div>
+    </header>
+ 
+    <div class="objets">
+        <div class="obj">
+            <div class="photo"><img src="img/img1.jpg"></div>
+            <div class="obj-content">
+                <div>adidas super star</div>
+                <div><tr>
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="0" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                </tr></div>
+                <div class="prixUnite">200</div>
+                <button class="btnAjouter">Ajouter</button>
+
+            </div>
+        </div>
+        <div class="obj">
+            <div class="photo"><img src="img/img2.jpg"></div>
+            <div class="obj-content">
+                <div>New Balance</div>
+                <div><tr>
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="0" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                </tr></div>
+                <div class="prixUnite">650</div>
+                <button class="btnAjouter">Ajouter</button>
+
+            </div>
+        </div>
+        <div class="obj">
+            <div class="photo"><img src="img/img3.jpg"></div>
+            <div class="obj-content">
+                <div>Asics</div>
+                <div><tr>
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="0" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                </tr></div>
+                <div class="prixUnite">450</div>
+                <button class="btnAjouter">Ajouter</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="t-prix">
+            <div class="T_P">Total panier: 
+                votre pannier vide
+            </div>
+            <div class="ferme">❌</div>
+        </div>
+        <div class="manip-prix">
+            <div class="article-nb">
+                <div class="quantite">
+                    <div></div>
+                    <div class="choes_choice"></div>
+                </div>
+                
+                <div class="prix-unite"></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <footer>
+        <img src="img/logo2.png" alt="">
+    </footer>
+
+    <script src="pannier.js">
+
+    </script>
+</body>
+
+</html>
+
+
+
